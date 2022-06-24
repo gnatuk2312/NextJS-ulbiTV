@@ -7,7 +7,7 @@ const User = ({user}) => {
   return (
     <div className={styles.user}>
       <h1>Користувач з id {router.query.id}</h1>
-      <div>Ім'я користувача {user.name}</div>
+      <div>Ім&apos;я користувача {user.name}</div>
     </div>
   );
 };
